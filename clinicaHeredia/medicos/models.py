@@ -15,4 +15,14 @@ class Medico(models.Model):
 		def __unicode__(self):
 			return "%s %s (%s)"%(self.persona.nombre_per,self.persona.apellidos_per,self.codigoMedico_med)
 
+		def Nombre_Medico(self):	
+			return "%s %s" %(self.persona.nombre_per,self.persona.apellidos_per,)
+
+		def Telefono(self):	
+			return "%s" %(self.persona.telefonoPrincipal_per,)	
+
+		def correo(self):	
+			return "%s" %(self.persona.correo_per,)		
+
+		
 

@@ -27,7 +27,7 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
-GRAPPELLI_ADMIN_TITLE = 'Clinica del Dolor'
+GRAPPELLI_ADMIN_TITLE = 'Sistema Clinica :: TCU UAM'
 
 # Application definition
 

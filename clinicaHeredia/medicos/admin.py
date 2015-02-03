@@ -7,7 +7,7 @@ from actions import export_as_excel
 from actions import export_as_csv_action
 
 class MedicoAdmin(admin.ModelAdmin):
-	list_display = ('codigoMedico_med',)
+	list_display = ('codigoMedico_med','Nombre_Medico','Telefono','correo',)
 	list_filter =('codigoMedico_med',)
 	search_fields = ('numeroCarnet_pac',)
 	filter_horizontal =('especialidad',)
